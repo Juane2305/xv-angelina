@@ -41,9 +41,11 @@ const LugaresLineal = ({borderColor, buttonStyle, link_ceremonia, direccion = "S
 
   return (
     <div ref={sectionRef} className="relative flex flex-col items-center py-16 z-10 ">
+
       <h2 className="text-2xl font-bold mb-8 z-20 relative text-[#f0e5d8]">
         Información del Evento
       </h2>
+                <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1763748659/882afb3bad801f614ac018c35fed8336_zrgw4j.png" alt="Silhouette" className="size-52 object-contain mb-7" />
 
       <div className="relative flex flex-col gap-12 z-20 w-full max-w-xl px-4 mb-10">
         {lugares.map((lugar) => {
