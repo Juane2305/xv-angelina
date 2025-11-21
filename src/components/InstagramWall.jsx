@@ -22,8 +22,8 @@ const InstagramWall = ({userClass, textClass, user}) => {
               <a href={`https://www.instagram.com/${instagramUser}/`} target='_blank' className='flex flex-col items-center justify-center'>
                     <p className={`text-3xl font-light text-gold ${userClass}`}>{user}</p>
               </a>
-                    <p className={`mx-10 font-thin text-lg text-[#f0e5d8] ${textClass}`}>Cuando subas tus fotos del día de la boda,
-etiquetanos en Instagram </p>
+                    <p className={`mx-10 font-thin text-lg text-[#f0e5d8] ${textClass}`}>Cuando subas tus fotos del día del evento,
+etiquetame en Instagram </p>
             </div>
     </div>
   )
