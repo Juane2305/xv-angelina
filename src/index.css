@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Crimson+Text:ital@0;1&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+
+  --font-eleganteTitle: 'Bodoni Moda', 'Playfair Display', 'serif';
+  --font-eleganteText: 'Crimson Text', 'serif';
+  --font-body: 'Crimson Text', 'serif';
+
+  --color-gold: #8B7355;
+  --color-burgundy: #5D1B1F;
+  --color-dark: #1a1a1a;
+  --color-vintage-gray: #3a3a3a;
+}
+
+/* Peaky Blinders Style */
+body {
+  background-color: #1a1a1a;
+  color: #f0e5d8;
+}
+
+/* Vintage texture overlay */
+.vintage-texture {
+  background-image: 
+    repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,.3) 2px, rgba(0,0,0,.3) 4px),
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,.3) 2px, rgba(0,0,0,.3) 4px);
+  background-size: 100% 100%;
+}
+
+/* Animaciones Peaky Blinders */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes subtleFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.peaky-fade-in {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.peaky-float {
+  animation: subtleFloat 3s ease-in-out infinite;
+}
+
+/* Efecto de sombra elegante */
+.peaky-shadow {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Borde vintage */
+.peaky-border {
+  border: 2px solid #5D1B1F;
+  box-shadow: inset 0 0 20px rgba(93, 27, 31, 0.3);
+}
