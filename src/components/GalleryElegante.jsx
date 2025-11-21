@@ -38,7 +38,7 @@ const GalleryElegante = ({ textStyle = "", buttonStyle = "" , images}) => {
       </h2>
 
       <div
-        className="relative border border-burgundy p-2 rounded-lg overflow-hidden 
+        className="relative  p-2 rounded-lg overflow-hidden 
                    mx-auto max-w-full 
                    h-[400px] md:h-[500px]"
         onTouchStart={handleTouchStart}
@@ -57,7 +57,7 @@ const GalleryElegante = ({ textStyle = "", buttonStyle = "" , images}) => {
             <img
               src={item.url}
               alt={`Elegante ${index}`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
         ))}

@@ -104,13 +104,14 @@ const Invitacion = () => {
 
           <GalleryElegante 
             images={[
-              {id: 1, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763750915/61214d92-c822-4009-9cfe-dacb60c14839_ngjpkb.jpg'},
+              {id: 1, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763759038/8a1cd94c-ccb7-4768-a068-d8d495a40453_kzxltw.jpg'},
               {id: 2, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763750916/9333305a-518e-43f4-b6e5-9e2ee5d32243_pthjj3.jpg'},
               {id: 3, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763750915/4457727b-2363-4895-bffd-d1b9437044e1_ahq9is.jpg'},
-              {id: 4, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763750915/3b6feb93-bf54-4ef9-899c-bf9c897362e7_p0itpd.jpg'},
-              {id: 5, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763750916/0cfc38ec-e478-4ae5-bf80-12b1a5f7b38e_qfa0ja.jpg'},
-              {id: 6, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763750915/37332ee2-a7ce-4f9e-bfbb-0790920383a7_movqbx.jpg'},
+              {id: 4, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763759038/b4a23304-7b85-4302-aace-48c3d05230ca_ptsnec.jpg'},
+              {id: 5, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763759041/34f9a26d-418e-479d-8e4e-1a6b708abf5f_ibefbh.jpg'},
+              {id: 6, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763759042/c967b9ef-5204-4d1c-8392-b5f551cdad26_ugewfi.jpg'},
               {id: 7, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763750915/bd7af13e-7ada-47a7-a317-928bdb1f22b4_gvlgny.jpg'},
+              {id: 8, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763759037/9d97a83b-d3ff-4455-9713-335625e6cdb0_c82inj.jpg'},
             ]}
           />
 
