@@ -116,7 +116,7 @@ const Invitacion = () => {
           />
 
             <InstagramWall user="@angelllotti"/>
-          <SharedAlbum albumLink="https://drive.google.com/drive/folders/1lJ1HHrsx7Xem91LCzJSN8NDF_iz3L9ip" />
+          <SharedAlbum albumLink="https://photos.app.goo.gl/UVZawqdpKBc4HMGE9" />
           <div className="bg-[#0a0a0a] text-center relative text-[#f0e5d8] border-t-4 border-burgundy">
             <GoogleCalendarButton buttonClass="border-burgundy" titleCalendar="Mis 15 años - Angelina"
               fechaComienzo="20260321T210000"
