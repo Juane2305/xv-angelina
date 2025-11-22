@@ -112,6 +112,7 @@ const Invitacion = () => {
               {id: 6, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763759042/c967b9ef-5204-4d1c-8392-b5f551cdad26_ugewfi.jpg'},
               {id: 7, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763750915/bd7af13e-7ada-47a7-a317-928bdb1f22b4_gvlgny.jpg'},
               {id: 8, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763759037/9d97a83b-d3ff-4455-9713-335625e6cdb0_c82inj.jpg'},
+              {id: 9, url: 'https://res.cloudinary.com/dfschbyq2/image/upload/v1763829313/ab725280-6031-4cf9-9c2a-f64933ab5b3b_dyitpg.jpg'},
             ]}
           />
 
